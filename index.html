@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-laptop' viewBox='0 0 16 16'><path d='M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z'/></svg>">
+    <!-- Google Font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Devicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Animate On Scroll -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+   
+
+<body>
+
+    <header id="menu">
+        <nav class="navbar navbar-expand-md navbar-light bg-gradient-primary">
+            <div class="container-fluid">        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#landing"><i class="bi bi-house-door me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#projects"><i class="bi bi-briefcase me-2"></i>My Projects</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#tools"><i class="bi bi-tools me-2"></i>Tools</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#contact"><i class="bi bi-person-lines-fill me-2"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="landing">
+            <section class="py-5 bg-gradient-section-light">
+                <div class="container py-5">
+                    <div class="row align-items-center">
+
+                        <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="d-inline-block project-card card-glass rounded-circle p-2 profile-picture-container">
+                                <img src="images/my-picture.jpg" alt="A portrait of Rey Jesus Teves"
+                                    class="img-fluid rounded-circle profile-picture">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                                <div class="card-body p-4 p-lg-5 text-center text-lg-start">
+                                    <h1 class="display-4 fw-bold text-primary-dark" data-aos="fade-left"
+                                        data-aos-duration="1000">Rey Jesus Teves</h1>
+
+                                    <p class="lead text-primary-dark fw-normal mb-4">Full Stack Developer</p>
+
+                                    <p class="text-secondary-blue">
+                                        I am a full-stack developer with experience in both front-end and back-end
+                                        development. I work with HTML, CSS, and JavaScript to build user-friendly and
+                                        reliable websites. If you need a web designer and computer programmer, I can
+                                        assist you. Let’s discuss this.
+                                    </p>
+                                    <!-- Call to action buttons -->
+                                    <a href="#contact" class="btn btn-lg mt-3 text-white btn-gradient">Contact Me</a>
+                                    <a href="#projects" class="btn btn-lg mt-3 ms-2 text-white btn-gradient">View My Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="projects" class="py-5 bg-gradient-section-dark">
+            <div class="container">
+
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold text-white">My Projects</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-img-top p-4 d-flex justify-content-center align-items-center project-card-img-container">
+                                <img src="images/django-portfolio-app.jpg" class="img-fluid project-card-img"
+                                    alt="Django Portfolio App Illustration">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-primary-dark mb-3">Django Portfolio App</h5>
+                                <p class="card-text text-secondary-blue small">
+                                    Django portfolio application that retrieves data from a PostgreSQL database.
+                                </p>
+                                <a href="https://django-vercel-portfolio.vercel.app/" target="_blank" class="btn mt-auto text-white btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-img-top p-4 d-flex justify-content-center align-items-center project-card-img-container">
+                                <img src="images/sveltekit-ai-chatbot.jpg" class="img-fluid project-card-img"
+                                    alt="SvelteKit AI Chatbot Illustration">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-primary-dark mb-3">SvelteKit AI Chatbot</h5>
+                                <p class="card-text text-secondary-blue small">
+                                    SvelteKit application that use OpenRouter API Key to answer inquiries.
+                                </p>
+                                <a href="https://open-router-chat-xi.vercel.app/" target="_blank" class="btn mt-auto text-white btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-img-top p-4 d-flex justify-content-center align-items-center project-card-img-container">
+                                <img src="images/react-movie-app.jpg" class="img-fluid project-card-img"
+                                    alt="React Movie App Illustration">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-primary-dark mb-3">React Movie App</h5>
+                                <p class="card-text text-secondary-blue small">
+                                    ReactJS application that retrieves data from a movie database.
+                                </p>
+                                <a href="https://react-movie-app-eight-pi.vercel.app/" target="_blank" class="btn mt-auto text-white btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-img-top p-4 d-flex justify-content-center align-items-center project-card-img-container">
+                                <img src="images/ai-interviewer-app.jpg" class="img-fluid project-card-img"
+                                    alt="AI Interviewer App Illustration">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-primary-dark mb-3">AI Interviewer App</h5>
+                                <p class="card-text text-secondary-blue small">
+                                    NextJS Application that assists users in practicing technical interviews.
+                                </p>
+                                <a href="https://ai-interviewer-fawn.vercel.app/sign-in" target="_blank" class="btn mt-auto text-white btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tools" class="py-5 bg-gradient-section-light">
+
+            <div class="container py-5">
+
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold text-primary-dark">Tools</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center text-center g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="500">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-body">
+                                <h3 class="h4 fw-bold mb-4">Web Development</h3>
+
+                                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                                    <i class="devicon-html5-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="HTML5"></i>
+                                    <i class="devicon-css3-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="CSS3"></i>
+                                    <i class="devicon-javascript-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="JavaScript"></i>
+                                    <i class="devicon-python-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Python"></i>
+                                    <i class="devicon-react-original colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="React JS"></i>
+                                    <i class="devicon-nextjs-original colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Next.js"></i>
+                                    <i class="devicon-php-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="PHP"></i>
+                                    <i class="devicon-django-plain fs-1 tool-icon tool-icon-blue" data-bs-toggle="tooltip" data-bs-title="Django"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-body">
+                                <h3 class="h4 fw-bold mb-4">Databases & Data</h3>
+
+                                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                                    <i class="devicon-mysql-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="MySQL"></i>
+                                    <i class="devicon-postgresql-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="PostgreSQL"></i>
+                                    <i class="devicon-mongodb-plain-wordmark colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="MongoDB"></i>
+                                    <i class="devicon-sqlite-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="SQLite"></i>
+                                    <i class="devicon-pandas-original colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Pandas"></i>
+                                    <i class="devicon-jupyter-plain-wordmark colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Jupyter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 project-card card-glass">
+                            <div class="card-body">
+                                <h3 class="h4 fw-bold mb-4">DevOps & Workflow</h3>
+
+                                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                                    <i class="devicon-git-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Git"></i>
+                                    <i class="devicon-gitlab-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="GitLab"></i>
+                                    <i class="devicon-trello-plain colored fs-1 tool-icon" data-bs-toggle="tooltip" data-bs-title="Trello"></i>
+                                    <i class="devicon-github-original fs-1 tool-icon tool-icon-blue" data-bs-toggle="tooltip" data-bs-title="GitHub"></i>
+                                    <i class="devicon-linux-plain fs-1 tool-icon tool-icon-blue" data-bs-toggle="tooltip" data-bs-title="Linux"></i>
+                                    <i class="devicon-vercel-original fs-1 tool-icon tool-icon-blue" data-bs-toggle="tooltip" data-bs-title="Vercel"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-gradient-section-dark">
+
+            <div class="container">
+
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold text-white">Contact</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center g-5">
+
+                    <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <!-- Google Maps Embed -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30869.80897918934!2d121.02633214999999!3d14.74233595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1f1383336eb%3A0x492f2541512c5a4!2sCaloocan%20City%20Hall%20North!5e0!3m2!1sen!2sph!4v1718246980133!5m2!1sen!2sph"
+                            height="450" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100 rounded shadow-sm"></iframe>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                        <form action="https://formspree.io/f/xwprrljl" method="POST">
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label visually-hidden">First Name M.I. Last
+                                    Name</label>
+                                <input type="text" class="form-control form-control-lg" id="fullName" name="name"
+                                    placeholder="Name" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="message" class="form-label visually-hidden">Message</label>
+                                <textarea class="form-control form-control-lg" id="message" name="message" rows="5"
+                                    placeholder="Message" required></textarea>
+                            </div>
+
+                            <div class="row justify-content-center align-items-center g-4" data-aos="fade-in" data-aos-duration="1000">
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-lg px-4 text-white btn-gradient">Submit</button>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.linkedin.com/in/rey-jesus-teves-62b393100/" target="_blank"
+                                        class="text-decoration-none">
+                                        <i class="devicon-linkedin-plain colored fs-3 tool-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="py-4 bg-gradient-primary text-white">
+        <div class="container">
+            <div class="row text-center align-items-center gy-3">
+                <!-- Column 1: Name -->
+                <div class="col-12 col-lg-4 text-lg-start">
+                    <p class="mb-0 fs-5 fw-bold">Rey Jesus Teves</p>
+                </div>
+                <!-- Column 2: Title -->
+                <div class="col-12 col-lg-4">
+                    <p class="mb-0 fw-normal">Full Stack Developer</p>
+                </div>
+                <!-- Column 3: Copyright -->
+                <div class="col-12 col-lg-4 text-lg-end">
+                    <p class="small mb-0 opacity-75 fw-light">&copy; All Rights Reserved, 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#menu" class="btn text-white position-fixed bottom-0 end-0 m-3 rounded-circle py-2 px-3 btn-gradient"
+        id="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Initialize Bootstrap tooltips
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

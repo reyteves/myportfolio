@@ -1,0 +1,92 @@
+REY JESUS TEVES
+
+CONTACT
+Phone: 09479500754
+Email: jesus.reyteves@gmail.com
+LinkedIn: linkedin.com/in/rey-jesus-teves-62b393100
+Portfolio: reyteves.github.io/webportfolio
+
+---
+
+SKILLS SUMMARY
+
+PROGRAMMING AND WEB DEVELOPMENT
+HTML, CSS, JavaScript, Python, PHP, jQuery, React JS, Next JS (Vercel), Django
+
+DATABASES
+MySQL, SQLite, MongoDB, PostgreSQL
+
+TOOLS & WORKFLOW
+SDLC, Wireframing & Prototyping, Git Version Control, Trello, Agile Collaboration
+
+DEVOPS / SYSTEMS ADMINISTRATION
+GitLab, GitHub, Git Bash, Linux
+
+DATA ANALYTICS
+Python (Pandas), Jupyter Notebook
+
+---
+
+WORK EXPERIENCE
+
+WEB DEVELOPER TRAINEE
+Zuitt Coding Bootcamp | September 1, 2025 - Present
+* Enhancing coding skills through hands-on web development projects.
+* Collaborating with peers to complete team-based programming exercises.
+* Updating technical expertise to complement prior bootcamp completion and professional experience.
+
+COMPUTER PROGRAMMER II
+Philippine Information Agency (PIA) | November 16, 2023 - August 14, 2024
+* Researched features and technical specifications for the Budget Management System required by the Budget Division.
+* Developed and implemented system components using HTML, CSS, JavaScript, PHP, and MySQL.
+* Supported system enhancements and troubleshooting to improve functionality and user experience.
+
+INFORMATION SYSTEM ANALYST I
+National Commission on Indigenous Peoples (NCIP) | September 16, 2022 - October 9, 2023
+* Produced System Analysis and Design documentation, including diagrams and process flowcharts for software projects.
+* Conducted research through staff interviews and developed interactive wireframes and prototypes.
+* Coordinated software installations, user trainings, and team collaboration using group chat and GitHub.
+
+PROJECT TECHNICAL ASSISTANT IV (WEB DEVELOPER)
+DOST-Advanced Science and Technology Institute | April 5, 2021 - September 16, 2022
+* Enhanced software tools for the COARE supercomputing facility and contributed to Python and JavaScript development.
+* Managed web user databases, improved documentation, and refined user interface designs.
+* Coordinated code management through GitLab and supported server setup and Linux administration.
+
+---
+
+PROJECT EXPERIENCE
+
+DJANGO PORTFOLIO APPLICATION
+Project Title: Django Portfolio App
+Role: Full Stack Developer
+Project Link: https://django-vercel-portfolio.vercel.app/
+Description: Django portfolio application that retrieves data from a PostgreSQL database.
+
+SVELTEKIT AI CHATBOT
+Project Title: SvelteKit AI Chatbot
+Role: Full Stack Developer
+Project Link: https://open-router-chat-xi.vercel.app/
+Description: SvelteKit application that use OpenRouter API Key to answer inquiries.
+
+REACT MOVIE APP
+Project Title: React Movie App
+Role: Front End Developer
+Project Link: https://react-movie-app-eight-pi.vercel.app/
+Description: ReactJS application that retrieves data from a movie database.
+
+AI INTERVIEWER APP
+Project Title: AI Interviewer App
+Role: Full Stack Developer
+Project Link: https://ai-interviewer-fawn.vercel.app/sign-in
+Description: NextJS Application that assists users in practicing technical interviews.
+
+---
+
+EDUCATION
+
+MASTER IN INFORMATION TECHNOLOGY (MIT)
+AMA Online Education (AMA OEd) | July 2021 - Present
+
+BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY
+Polytechnic University of the Philippines (PUP) | May 2000 - May 2006
